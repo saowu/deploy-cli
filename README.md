@@ -2,6 +2,7 @@
 >基于Cobra实现的CLI应用程序Demo
 
 # 构建
+- `go mod tidy`把项目所依靠的包增加到go.mod文件中
 - `go run deploy-cli.go`调试执行
 - `go build deploy-cli.go `编译成`deploy-cli`
 
