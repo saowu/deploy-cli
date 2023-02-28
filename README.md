@@ -5,7 +5,7 @@
 - `go mod tidy`把项目所依靠的包增加到go.mod文件中
 - `go run deploy-cli.go`调试执行
 - `go build deploy-cli.go `编译成`deploy-cli`
-
+    - macOS交叉编译`CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build deploy-cli.go`
 # 示例
 ```shell
 ➜  deploy-cli go run deploy-cli.go
